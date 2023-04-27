@@ -7,7 +7,7 @@ from langchain.llms import OpenAI
 import streamlit as st
 import os
 def main():
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = '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'
     st.title("PDF GPT creator")
     menu = ['Home','About']
     choice = st.sidebar.selectbox('Menu',menu)
